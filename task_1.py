@@ -10,7 +10,8 @@ def summa_n(number):
     for i in range(number + 1):
         result += i
         i += 1
-    print(result)
+    
+    print(f"Сумма чисел от 1 до {number} равна: {result}")
 
 number = int(input("Введите число: "))
 
